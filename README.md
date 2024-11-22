@@ -29,7 +29,7 @@ dependencies:
 
 ### Preview of CSHeartButton
 
-<img width="350" height="400" alt="" src="https://github.com/user-attachments/assets/cdf3be9e-82ab-48b3-818d-068dcaa1691d">
+<img width="350" height="400" alt="" src="https://github.com/user-attachments/assets/68d66205-1fff-4ce3-beb1-aa6bc1d93d34">
 
 
 ### CSButton example
