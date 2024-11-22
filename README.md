@@ -18,7 +18,7 @@ Add `csbuttons` to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  csbuttons: ^1.0.0 # Replace with the latest version
+  csbuttons: ^0.1.1 # Replace with the latest version
 ```
 
 ### Preview of CSButtons
@@ -33,7 +33,6 @@ dependencies:
 
 ### CSButton example
 
-```dart
 ```dart
 class MyApp extends StatelessWidget {
     @override
@@ -56,7 +55,7 @@ class MyApp extends StatelessWidget {
     }
 }
 ```
-```
+
 ### CSHeartButton example
 
 ```dart
@@ -68,7 +67,7 @@ class MyApp extends StatelessWidget {
                 appBar: AppBar(title: Text("CSHeartButton Example")),
                 body: Center(
                     child: CSHeartButton(
-                        child: Text('CSHeartButton'),
+                        child: Text('Double tap the screen'),
                     ),
                 ),
             ),
