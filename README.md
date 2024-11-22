@@ -23,7 +23,7 @@ dependencies:
 
 ### Preview of CSButtons
 
-<div style="display: flex; gap: 10px;">
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <video src="https://github.com/user-attachments/assets/7ced0786-59fd-438e-b177-32d167ca9efc" controls width="45%"></video>
     <video src="https://github.com/user-attachments/assets/d3dfe5ae-6285-4a93-8e43-42e73889ad44" controls width="45%"></video>
 </div>
