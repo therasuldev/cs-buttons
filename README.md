@@ -23,12 +23,13 @@ dependencies:
 
 ### Preview of CSButtons
 
-![cs-buttons](https://github.com/user-attachments/assets/7af16aae-78a1-4d0f-962f-c4aa212df9cc)
-![cs-buttons](https://github.com/user-attachments/assets/faf0979d-cf93-4082-8e69-f88473d93719)
+<img width="200" height="250" alt="screen" src="https://github.com/user-attachments/assets/faf0979d-cf93-4082-8e69-f88473d93719">
+<img width="200" height="250" alt="screen" src="https://github.com/user-attachments/assets/7af16aae-78a1-4d0f-962f-c4aa212df9cc">
+
 
 ### Preview of CSHeartButton
 
-![ezgif-6-1d5c08543b](https://github.com/user-attachments/assets/310672ba-7f2e-44ba-9ff4-0ff54ae321d0)
+<img width="350" height="400" alt="screen" src="https://github.com/user-attachments/assets/a639c247-5efe-4ca5-9501-97c6fea63487">
 
 
 ### CSButton example
