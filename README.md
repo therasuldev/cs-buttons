@@ -28,9 +28,7 @@ dependencies:
 
 ### Preview of CSHeartButton
 
-<div style="display: flex; gap: 10px;">
-    <video src="https://github.com/user-attachments/assets/e9ec1b4b-6adb-441b-b9f9-64ef93d2eb9c" controls width="45%"></video>
-</div>
+![ezgif-3-67edc78494](https://github.com/user-attachments/assets/283197b5-f894-4cda-bb95-82aa206d0d23)
 
 
 
