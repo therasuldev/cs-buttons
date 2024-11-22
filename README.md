@@ -24,26 +24,28 @@ dependencies:
 ### CSButton example
 
 ```dart
+```dart
 class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(title: Text("CSButton Example")),
-        body: Center(
-          child: CSButton(
-            icon: Icons.favorite,
-            iconSize: 60.0,
-            color: Colors.red,
-            onTap: () {
-              print("CSButton tapped!");
-            },
-          ),
-        ),
-      ),
-    );
-  }
+    @override
+    Widget build(BuildContext context) {
+        return MaterialApp(
+            home: Scaffold(
+                appBar: AppBar(title: Text("CSButton Example")),
+                body: Center(
+                    child: CSButton(
+                        icon: Icons.favorite,
+                        iconSize: 60.0,
+                        color: Colors.red,
+                        onTap: () {
+                            print("CSButton tapped!");
+                        },
+                    ),
+                ),
+            ),
+        );
+    }
 }
+```
 ```
 ### CSHeartButton example
 
