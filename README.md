@@ -28,7 +28,7 @@ dependencies:
 
 ### Preview of CSHeartButton
 
-<img src="https://github.com/user-attachments/assets/283197b5-f894-4cda-bb95-82aa206d0d23" alt="ezgif" height="400">
+![ezgif-6-1d5c08543b](https://github.com/user-attachments/assets/310672ba-7f2e-44ba-9ff4-0ff54ae321d0)
 
 
 ### CSButton example
