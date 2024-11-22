@@ -23,7 +23,7 @@ dependencies:
 
 ### Preview of CSButtons
 
-<div class="salam" style="display: flex; justify-content: space-between; gap: 10px;">
+<div  style="display: flex; justify-content: space-between;">
     <video style="display: inline-block"  src="https://github.com/user-attachments/assets/7ced0786-59fd-438e-b177-32d167ca9efc" controls width="48%"></video>
     <video src="https://github.com/user-attachments/assets/d3dfe5ae-6285-4a93-8e43-42e73889ad44" controls width="48%"></video>
 </div>
