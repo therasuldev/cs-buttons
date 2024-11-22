@@ -1,6 +1,6 @@
 name: csbuttons
 description: "A Flutter package that provides custom button and animation widgets."
-version: 0.1.3
+version: 0.1.4
 homepage: https://github.com/therasuldev/cs-buttons
 
 environment:
