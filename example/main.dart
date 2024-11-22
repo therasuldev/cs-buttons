@@ -1,3 +1,4 @@
+import 'package:csbuttons/csbuttons.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -7,21 +8,38 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      title: 'Flutter Demo',
-      home: Home(),
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(title: const Text("CSButton Example")),
+        body: Center(
+          child: CSButton(
+            icon: Icons.favorite,
+            iconSize: 60.0,
+            color: Colors.red,
+            onTap: () {},
+          ),
+        ),
+      ),
     );
   }
 }
 
-class Home extends StatelessWidget {
-  const Home({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(title: const Text("CSHeartButton Example")),
+        body: const Center(
+          child: CSHeartButton(
+            child: Text('Double tap the screen'),
+          ),
+        ),
+      ),
+    );
   }
 }
