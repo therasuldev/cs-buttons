@@ -18,7 +18,7 @@ Add `csbuttons` to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  csbuttons: ^0.1.2 # Replace with the latest version
+  csbuttons: ^0.1.3 # Replace with the latest version
 ```
 
 ### Preview of CSButtons
