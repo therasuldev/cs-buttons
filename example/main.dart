@@ -34,9 +34,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(title: const Text("CSHeartButton Example")),
-        body: const Center(
+        body: Center(
           child: CSHeartButton(
-            child: Text('Double tap the screen'),
+            onDoubleTap: () {},
+            child: const Text('Double tap the screen'),
           ),
         ),
       ),

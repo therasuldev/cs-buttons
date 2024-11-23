@@ -18,7 +18,7 @@ Add `csbuttons` to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  csbuttons: ^0.2.4 # Replace with the latest version
+  csbuttons: ^0.2.5 # Replace with the latest version
 ```
 
 ### Preview of CSButtons
@@ -68,6 +68,7 @@ class MyApp extends StatelessWidget {
                 appBar: AppBar(title: Text("CSHeartButton Example")),
                 body: Center(
                     child: CSHeartButton(
+                        onDoubleTap: () {},
                         child: Text('Double tap the screen'),
                     ),
                 ),
