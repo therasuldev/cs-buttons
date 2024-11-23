@@ -1,3 +1,5 @@
+import 'dart:nativewrappers/_internal/vm/lib/ffi_allocation_patch.dart';
+
 import 'package:flutter/material.dart';
 import 'dart:math';
 
@@ -8,6 +10,7 @@ class CSHeartButton extends StatefulWidget {
     required this.child,
     this.iconSize = 60.0,
     this.color = Colors.red,
+    required this.onDoubleTap,
   });
 
   /// The child widget to be displayed, typically the button or element you want to attach the like effect to.
@@ -18,6 +21,9 @@ class CSHeartButton extends StatefulWidget {
 
   /// The color of the heart icon. Default is red.
   final Color? color;
+
+  /// Callback function to be called when a double tap is detected on the widget.
+  final void Function()? onDoubleTap;
 
   @override
   State<CSHeartButton> createState() => _CSHeartButtonState();
@@ -42,6 +48,8 @@ class _CSHeartButtonState extends State<CSHeartButton> with TickerProviderStateM
         final RenderBox renderBox = context.findRenderObject() as RenderBox;
         final Offset localPosition = renderBox.globalToLocal(details.globalPosition);
         _addHeart(localPosition);
+
+        widget.onDoubleTap.call();
       },
       child: Stack(
         children: [widget.child, ..._floatingHearts],
