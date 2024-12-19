@@ -170,7 +170,7 @@ class ParticlePainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     // Configure the paint with the particle color and fading effect.
-    final Paint paint = Paint()..color = particleColor.withOpacity(1 - progress);
+    final Paint paint = Paint()..color = particleColor.withValues(alpha: 1 - progress);
 
     // Draw each particle on the canvas.
     for (var particle in particles) {

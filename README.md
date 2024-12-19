@@ -1,7 +1,7 @@
 
 # csbuttons
 
-A Flutter package that provides custom animated button widgets for interactive UI elements. 
+A Flutter package that provides custom animated button widgets for interactive UI elements.
 
 This package offers customizable buttons with heart animations, particle effects, and scaling animations, perfect for adding engaging interactions to your Flutter applications.
 
@@ -23,14 +23,12 @@ dependencies:
 
 ### Preview of CSButtons
 
-<img width="200" height="250" alt="" src="https://github.com/user-attachments/assets/615c04a4-cb70-46ed-8ea7-0c7327ddabf0">
-<img width="200" height="250" alt="" src="https://github.com/user-attachments/assets/ca38f831-ade6-4bfa-a246-e03f051fb8b4">
-
+![CSButton Preview](https://github.com/user-attachments/assets/615c04a4-cb70-46ed-8ea7-0c7327ddabf0)
+![CSButton Preview](https://github.com/user-attachments/assets/ca38f831-ade6-4bfa-a246-e03f051fb8b4)
 
 ### Preview of CSHeartButton
 
-<img width="350" height="400" alt="" src="https://github.com/user-attachments/assets/68d66205-1fff-4ce3-beb1-aa6bc1d93d34">
-
+![CSHeartButton Preview](https://github.com/user-attachments/assets/68d66205-1fff-4ce3-beb1-aa6bc1d93d34)
 
 ### CSButton example
 

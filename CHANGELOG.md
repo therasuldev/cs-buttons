@@ -1,4 +1,4 @@
-## 0.0.1
+# 0.0.1
 
 * TODO: Describe initial release.
 
@@ -23,5 +23,9 @@
 * Bug fix!
 
 ## 0.2.5
+
+* Bug fix!
+
+## 0.2.6
 
 * Bug fix!
