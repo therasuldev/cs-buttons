@@ -26,21 +26,21 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+// class MyApp extends StatelessWidget {
+//   const MyApp({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(title: const Text("CSHeartButton Example")),
-        body: Center(
-          child: CSHeartButton(
-            onDoubleTap: () {},
-            child: const Text('Double tap the screen'),
-          ),
-        ),
-      ),
-    );
-  }
-}
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       home: Scaffold(
+//         appBar: AppBar(title: const Text("CSHeartButton Example")),
+//         body: Center(
+//           child: CSHeartButton(
+//             onDoubleTap: () {},
+//             child: const Text('Double tap the screen'),
+//           ),
+//         ),
+//       ),
+//     );
+//   }
+// }
